@@ -1,0 +1,21 @@
+{
+  "name": "auto-writebatch",
+  "version": "0.0.1",
+  "description": "A small wrapper for Firestore WriteBatch that automatically commits when the operations reach the limit.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "firebase-admin": "^10.0.1"
+  }
+}
